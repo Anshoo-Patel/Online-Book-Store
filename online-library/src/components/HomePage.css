@@ -1,0 +1,58 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  h2 span{
+     color: red;
+     font-size: 1.9rem;
+  }
+
+  h3{
+    margin-top: 7px;
+    color: orangered;
+  }
+  
+  .category-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .category-background {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover .category-background {
+    transform: scale(1.05);
+  }
+  
+  .category-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .category-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(248, 214, 151);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  

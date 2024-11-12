@@ -1,0 +1,49 @@
+.books-container{
+    margin: 10px;
+}
+
+input{
+    width: 90%;
+    margin: 20px 70px;
+    padding: 8px;
+}
+
+.book-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.card-book:hover{
+    transform: scale(1.1);
+}
+
+.book-title{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.book-cover{
+    width: 100%;
+}
+
+.book-author{
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #555;
+}
